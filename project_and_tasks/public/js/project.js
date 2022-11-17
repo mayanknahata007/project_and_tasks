@@ -1,6 +1,5 @@
 frappe.ui.form.on('Project', {
 	refresh(frm) {
-        console.log("Bhai ka app")
         intro(frm)
 		set_status(frm)
 	}
